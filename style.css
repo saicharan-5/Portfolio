@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    
+    position: sticky;
+}
+
+body{
+    background-color: rgb(37, 37, 60);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    background-color: rgb(35, 35, 54);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(148, 148, 223);
+    font-size: 1.05rem;
+}
+.left{
+    size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftSection{
+    font-size: 2.2rem;
+
+}
+.rightSection img{
+    width: 80%;
+    
+}
+.purple{
+    color: rgb(238, 164, 216);
+}
+footer{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 1.2rem;
+}
+.about{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 60px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    padding-bottom: 50px;
+}
+main{
+    padding-top: 10px;
+}
+
+.contact1{
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.social-icons{
+    align-items: center;
+}
+.icons{
+    position: relative;
+    
+}
+.icons img{
+    height: 50px;
+    text-align: center;
+}
+.b{
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
